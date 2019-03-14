@@ -1,4 +1,4 @@
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
             
         </div>
     </div>
@@ -8,6 +8,9 @@ html, body
 {
     margin: 0;
     padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-size: 1em !important;
 }
 
 .sidebar1 {

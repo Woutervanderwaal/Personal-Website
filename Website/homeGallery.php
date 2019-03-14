@@ -3,7 +3,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
 
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <div class="container">
   <div class="row">
@@ -104,7 +104,9 @@ http://www.jqueryscript.net/layout/Simple-jQuery-Plugin-To-Create-Pinterest-Styl
 */
 
 body {
- background-color:#eee;   
+  background-color:#eee;  
+  max-width: 100%;
+  overflow-x: hidden; 
 }    
 
 #pinBoot {
