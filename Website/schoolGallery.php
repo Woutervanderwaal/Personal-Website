@@ -1,6 +1,7 @@
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -10,77 +11,39 @@
     <section id="pinBoot">
 
       <article class="white-panel"><img src="img/davinci.png" alt="">
-        <h4><a href="school.php">School</a></h4>
+        <h4>Davinci</h4>
         <p>Im attending Davinci Collage in Dordrecht and my study is niveau 4 applicatie en mediaontwikkeling</p>
       </article>
 
-      <article class="white-panel"> <img src="img/snowboarding.jpg" alt="">
-        <h4><a href="hobbies.php">Hobbies</a></h4>
-        <p>Here are some of my hobbies, Snowboarding, Programming, Moddeling, 3D printing.</p>
-      </article>
-
-      <article class="white-panel"> <img src="img/linkedin.png" alt="">
-        <h4><a href="https://nl.linkedin.com/"  target="_blank">Linkedin</a></h4>
-        <p>Click on the link to get to my Linkedin profile</p>
-      </article>
-
-
-      <article class="white-panel"> <img src="img/github.png" alt="">
-        <h4><a href="https://github.com/Woutervanderwaal" target="_blank">Github</a></h4>
-        <p>Click on the link to see my repositories to take a look at some of my projects, if you look at the Languages and tools section you can see a short versions of my projects</p>
-      </article>
-
-      <article class="white-panel"> <img src="img/instagram.png" alt="">
-        <h4><a href="https://www.instagram.com/woutervdw.078/?hl=nl" target="_blank">Instagram</a></h4>
-        <p>Click to see some photo's on my instagram.</p>
-      </article>
-
-      <article class="white-panel"> <img src="img/contact.jpg" alt="">
-        <h4><a href="contact.php">Contact</a></h4>
-        <p>If you have any questions. Get in touch with me and send me a email or a message</p>
-      </article>
-
       <article class="white-panel"><img src="img/htmlCssJs.jpg" alt="">
-        <h4><a href="htmlCssJs.php">Html/Css/Js</a></h4>
-        <p>Look at some of my Html/Css/Js projects. This contains some of my better work over the weeks to get a sight on what i can do.</p>
+        <h4>Html/Css/Js</h4>
+        <p>Im learning a lot of front end in my education if you want to see some of my work check out the Html/Css/Js page.</p>
       </article>
 
       <article class="white-panel"> <img src="img/php.jpg" alt="">
-        <h4><a href="php.php">PHP</a></h4>
-        <p>Some of my PHP projects There arent many at this point but i will sure add some more in the future.</p>
+        <h4>PHP</h4>
+        <p>Currently we are learning backend Mostly PHP and mysql.</p>
       </article>
 
-      <article class="white-panel"> <img src="img/cpp.png" alt="">
-        <h4><a href="cpp.php">C++</a></h4>
-        <p>I do C++ for fun. I mosly use C++ in unreal engine. This is the language im currently learning the hardest </p>
+      <article class="white-panel"> <img src="img/dutchFlag.png" alt="">
+        <h4>Dutch</h4>
+        <p>We have classic dutch lessons. We just expand our vocabulary</p>
       </article>
 
-      <article class="white-panel"> <img src="img/cSharp.png" alt="">
-        <h4><a href="cs.php">C#</a></h4>
-        <p>i do C# for fun. I use C# with unity im side learning C# with C++ but im learning C++ more.</p>
+      <article class="white-panel"> <img src="img/math.jpg" alt="">
+        <h4>Math</h4>
+        <p>We learn math in a way to help us programm it later of expample vectors</p>
       </article>
 
-      <article class="white-panel"> <img src="img/python.jpg" alt="">
-        <h4><a href="python.php">Python</a></h4>
-        <p>Python is the first programming language i ever learned. So the project arnt that good but it showed me how fun programming is.</p>
+      <article class="white-panel"> <img src="img/burgerschap.png" alt="">
+        <h4>Citizenship</h4>
+        <p>We learn here how to live in this new world.</p>
       </article>
 
-      <article class="white-panel"> <img src="img/blender.png" alt="">
-        <h4><a href="blender.php">Blender</a></h4>
-        <p>I'd like to make my own moddels for Unity and Unreal because i like to learn. So be able to make my own 3D models was looking like a good step</p>
+      <article class="white-panel"> <img src="img/flag.png" alt="">
+        <h4>English</h4>
+        <p>We learn english on what we choose in our education, because i choose programming my english lessons are specially made to fit my field</p>
       </article>
-
-      <article class="white-panel"> <img src="img/unity.jpg" alt="">
-        <h4><a href="unity.php">Unity</a></h4>
-        <p>Unity is the game enigine i mostly use because its a lot easyer then unreal</p>
-      </article>
-
-      <article class="white-panel"> <img src="img/unreal.png" alt="">
-        <h4><a href="unreal.php">Unreal</a></h4>
-        <p>While i use Unity more Unreal give me some options that Unity doesnt and since it also works with blender i can use the same models</p>
-      </article>
-    </section>
-
 
     <hr>
 
@@ -91,11 +54,6 @@
 </div>
 
 <style>
-/*
-Ref:
-Thanks to:
-http://www.jqueryscript.net/layout/Simple-jQuery-Plugin-To-Create-Pinterest-Style-Grid-Layout-Pinterest-Grid.html
-*/
 
 body {
   background-color:#eee;  

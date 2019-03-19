@@ -18,35 +18,34 @@
                     <img src="img/test.png" class="img-responsive center-block" alt="Logo" style="height: 64px; width: 64px;">
                 </div>
                 <br>
-                <div id="stopOverflow" class="left-navigation">
-                    <ul class="list">
+                <div id="overflowHidden" class="left-navigation">
+                    <div class="list">
                         <h5><strong>ABOUT ME</strong></h5>
-                        <li>Home</li>
-                        <li>School</li>
-                        <li>Hobbies</li>
-                        <li>LinkedIN</li>
-                        <li>Github</li>
-                        <li>Instagram</li>
-                        <li>Contact</li>
-                    </ul>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="school.php">School</a></li>
+                        <li><a href="hobbies.php">Hobbies</a></li>
+                        <li><a href="https://nl.linkedin.com/" target="_blank">LinkedIN</a></li>
+                        <li><a href="https://github.com/Woutervanderwaal"  target="_blank">Github</a></li>
+                        <li><a href="https://www.instagram.com/woutervdw.078/?hl=nl"  target="_blank">Instagram</a></li>
+                        <li><a href="contact.php">Contact</a></li>
+                    </div>
 
                     <br>
 
                     <ul class="list">
                         <h5><strong>LANGUAGES</strong></h5>
                         <h5 id="toolsHeader"><strong>/ TOOLS</strong></h5>
-                        <li>Html/Css/Js</li>
-                        <li>PHP</li>
-                        <li>C++</li>
-                        <li>C#</li>
-                        <li>Python</li>
-                        <li>Blender</li>
-                        <li>Unity</li>
-                        <li>Unreal</li>
+                        <li><a href="htmlCssJs.php">Html/Css/Js</a></li>
+                        <li><a href="php.php">PHP</a></li>
+                        <li><a href="cpp.php">C++</a></li>
+                        <li><a href="cs.php">C#</a></li>
+                        <li><a href="python.php">Python</a></li>
+                        <li><a href="blender.php">Blender</a></li>
+                        <li><a href="unity.php">Unity</a></li>
+                        <li><a href="unreal.php">Unreal</a></li>
                     </ul>
 
-                    <p id="copyRightInformation">© Wouter v d Waal</p>
+                    <p style="color: white;" id="copyRightInformation">© Wouter v d Waal</p>
                 </div>
             </div>
             <div class="col-md-10 col-sm-8 main-content">
-            <!--Main content code to be written here --> 

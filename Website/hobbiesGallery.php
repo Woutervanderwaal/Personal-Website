@@ -1,6 +1,7 @@
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -9,78 +10,35 @@
   
     <section id="pinBoot">
 
-      <article class="white-panel"><img src="img/davinci.png" alt="">
-        <h4><a href="school.php">School</a></h4>
-        <p>Im attending Davinci Collage in Dordrecht and my study is niveau 4 applicatie en mediaontwikkeling</p>
+      <article class="white-panel"><img src="img/ski.jpg" alt="">
+        <h4>Snowboard / Ski</h4>
+        <p>Snowboarding and skiing is something I do every year. I do mostly snowboarding</p>
       </article>
 
-      <article class="white-panel"> <img src="img/snowboarding.jpg" alt="">
-        <h4><a href="hobbies.php">Hobbies</a></h4>
-        <p>Here are some of my hobbies, Snowboarding, Programming, Moddeling, 3D printing.</p>
+      <article class="white-panel"><img src="img/printer.jpg" alt="">
+        <h4>3D priting</h4>
+        <p>Because I 3d model myself, I always wanted to 3d print some stuff. I use my 3d printer mosly for fun stuff like: making videogame props. But if you need to repair something, sometime you can just print the part out.</p>
       </article>
 
-      <article class="white-panel"> <img src="img/linkedin.png" alt="">
-        <h4><a href="https://nl.linkedin.com/"  target="_blank">Linkedin</a></h4>
-        <p>Click on the link to get to my Linkedin profile</p>
+      <article class="white-panel"><img src="img/gaming.jpg" alt="">
+        <h4>Gaming</h4>
+        <p>I do like gaming but I mosly just only play 1 game, League of Legends. I mainly just play competitive games</p>
       </article>
 
-
-      <article class="white-panel"> <img src="img/github.png" alt="">
-        <h4><a href="https://github.com/Woutervanderwaal" target="_blank">Github</a></h4>
-        <p>Click on the link to see my repositories to take a look at some of my projects, if you look at the Languages and tools section you can see a short versions of my projects</p>
+      <article class="white-panel"><img src="img/programming.jpg" alt="">
+        <h4>Programming</h4>
+        <p>I do programm a lot at school because its my field and at home because there is always something to learn while im not that good at really any langauge, this doesnt stop my motivation to learn</p>
       </article>
 
-      <article class="white-panel"> <img src="img/instagram.png" alt="">
-        <h4><a href="https://www.instagram.com/woutervdw.078/?hl=nl" target="_blank">Instagram</a></h4>
-        <p>Click to see some photo's on my instagram.</p>
+      <article class="white-panel"><img src="img/3dmodel.jpg" alt="">
+        <h4>3D modeling</h4>
+        <p>Trying to make my own video game is a big challenge, but im want to learn everything to do with it, from sound to modeling and every thing in between. 3d modeling is something that is necessary to learn so you dont depent on other people to get the models you need.</p>
       </article>
 
-      <article class="white-panel"> <img src="img/contact.jpg" alt="">
-        <h4><a href="contact.php">Contact</a></h4>
-        <p>If you have any questions. Get in touch with me and send me a email or a message</p>
+      <article class="white-panel"><img src="img/learning.jpg" alt="">
+        <h4>Learning</h4>
+        <p>Learning is something we all do, but enjoying it is even better. There are a infinite thing to learn, But math, physics, programming are the main thing I enjoy learning</p>
       </article>
-
-      <article class="white-panel"><img src="img/htmlCssJs.jpg" alt="">
-        <h4><a href="htmlCssJs.php">Html/Css/Js</a></h4>
-        <p>Look at some of my Html/Css/Js projects. This contains some of my better work over the weeks to get a sight on what i can do.</p>
-      </article>
-
-      <article class="white-panel"> <img src="img/php.jpg" alt="">
-        <h4><a href="php.php">PHP</a></h4>
-        <p>Some of my PHP projects There arent many at this point but i will sure add some more in the future.</p>
-      </article>
-
-      <article class="white-panel"> <img src="img/cpp.png" alt="">
-        <h4><a href="cpp.php">C++</a></h4>
-        <p>I do C++ for fun. I mosly use C++ in unreal engine. This is the language im currently learning the hardest </p>
-      </article>
-
-      <article class="white-panel"> <img src="img/cSharp.png" alt="">
-        <h4><a href="cs.php">C#</a></h4>
-        <p>i do C# for fun. I use C# with unity im side learning C# with C++ but im learning C++ more.</p>
-      </article>
-
-      <article class="white-panel"> <img src="img/python.jpg" alt="">
-        <h4><a href="python.php">Python</a></h4>
-        <p>Python is the first programming language i ever learned. So the project arnt that good but it showed me how fun programming is.</p>
-      </article>
-
-      <article class="white-panel"> <img src="img/blender.png" alt="">
-        <h4><a href="blender.php">Blender</a></h4>
-        <p>I'd like to make my own moddels for Unity and Unreal because i like to learn. So be able to make my own 3D models was looking like a good step</p>
-      </article>
-
-      <article class="white-panel"> <img src="img/unity.jpg" alt="">
-        <h4><a href="unity.php">Unity</a></h4>
-        <p>Unity is the game enigine i mostly use because its a lot easyer then unreal</p>
-      </article>
-
-      <article class="white-panel"> <img src="img/unreal.png" alt="">
-        <h4><a href="unreal.php">Unreal</a></h4>
-        <p>While i use Unity more Unreal give me some options that Unity doesnt and since it also works with blender i can use the same models</p>
-      </article>
-    </section>
-
 
     <hr>
 
@@ -91,11 +49,6 @@
 </div>
 
 <style>
-/*
-Ref:
-Thanks to:
-http://www.jqueryscript.net/layout/Simple-jQuery-Plugin-To-Create-Pinterest-Style-Grid-Layout-Pinterest-Grid.html
-*/
 
 body {
   background-color:#eee;  
@@ -315,4 +268,4 @@ http://www.jqueryscript.net/layout/Simple-jQuery-Plugin-To-Create-Pinterest-Styl
     }
 
 })(jQuery, window, document);
-</script>
+</script>   
