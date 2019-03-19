@@ -18,7 +18,7 @@
                     <img src="img/test.png" class="img-responsive center-block" alt="Logo" style="height: 64px; width: 64px;">
                 </div>
                 <br>
-                <div class="left-navigation">
+                <div id="stopOverflow" class="left-navigation">
                     <ul class="list">
                         <h5><strong>ABOUT ME</strong></h5>
                         <li>Home</li>

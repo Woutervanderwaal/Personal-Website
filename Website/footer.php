@@ -69,6 +69,11 @@ text-align:center;
 {
     opacity: 0.5;
 }
+
+#stopOverflow
+{
+    overflow: hidden;
+}
 </style>
 
 </html>
