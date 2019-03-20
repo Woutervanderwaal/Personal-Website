@@ -18,38 +18,18 @@
     <div class="swiper-wrapper">
 
       <div class="swiper-slide slide">
-        <div class="slide-image" style="background-image: url(img/htmlCssJs.jpg)"></div>
-        <span style="color: black;" class="slide-title">Html/Css/Js</span>
+        <div class="slide-image" style="background-image: url(img/php.jpg)"></div>
+        <span style="color: black;" class="slide-title">php</span>
       </div>
 
       <div class="swiper-slide slide">
-        <div class="slide-image" style="background-image: url(img/lingo.png)"></div>
-        <span style="color: black;" class="slide-title">lingo</span>
+        <div class="slide-image" style="background-image: url(img/time.png)"></div>
+        <span style="color: black;" class="slide-title">time</span>
       </div>
 
       <div class="swiper-slide slide">
-        <div class="slide-image" style="background-image: url(img/game.png)"></div>
-        <span class="slide-title">Adventure Game</span>
-      </div>
-
-      <div class="swiper-slide slide">
-        <div class="slide-image" style="background-image: url(img/spacex.png)"></div>
-        <span class="slide-title">SpaceX</span>
-      </div>
-
-      <div class="swiper-slide slide">
-        <div class="slide-image" style="background-image: url(img/grid.png)"></div>
-        <span style="color: black;" class="slide-title">Grid</span>
-      </div>
-
-      <div class="swiper-slide slide">
-        <div class="slide-image" style="background-image: url(img/hendy.png)"></div>
-        <span class="slide-title">Handy</span>
-      </div>
-
-      <div class="swiper-slide slide">
-        <div class="slide-image" style="background-image: url(img/order.png)"></div>
-        <span style="color: black;" class="slide-title">Order</span>
+        <div class="slide-image" style="background-image: url(img/website.png)"></div>
+        <span style="color: black;" class="slide-title">website</span>
       </div>
 
     </div>
@@ -60,6 +40,8 @@
       <div class="slideshow-navigation-button prev"><span class="fas fa-chevron-left"></span></div>
       <div class="slideshow-navigation-button next"><span class="fas fa-chevron-right"></span></div>
     </div>
+
+    
 
   </div>
 
