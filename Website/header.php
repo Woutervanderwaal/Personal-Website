@@ -46,6 +46,8 @@
                     </ul>
 
                     <p style="color: white;" id="copyRightInformation">© Wouter v d Waal</p>
+
+                    <span id="time" style="color: white;" ><?php echo date("l jS \of F Y") . "<br>"; ?></span>
                 </div>
             </div>
             <div class="col-md-10 col-sm-8 main-content">

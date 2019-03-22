@@ -1,4 +1,4 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <?php include 'header.php' ?>
-<h2 style="position: relative; top: 10px; margin-bottom: 25px;">Python</h2>
+<?php include 'pythonGallery.php' ?>
 <?php include 'headercss.php' ?>

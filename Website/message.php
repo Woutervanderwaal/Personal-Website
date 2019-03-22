@@ -18,7 +18,7 @@
                  <!-- Message body	--> 
                         <div class="panel-body msg_container_base">
                           <br />
-                          <form action="#">
+                          <form action="mail.php">
                             <div class="form-group">
                               <input type="text" class="form-control" id="name" placeholder="Name">
                             </div>

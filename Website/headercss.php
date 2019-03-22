@@ -64,7 +64,6 @@ text-align:center;
 {
     position: relative;
     left: 39px;
-
 }
 
 #toolsHeader
@@ -75,6 +74,12 @@ text-align:center;
 #overflowHidden
 {
     overflow: hidden;
+}
+
+#time
+{
+    position: relative;
+    left: 39px;    
 }
 </style>
 
