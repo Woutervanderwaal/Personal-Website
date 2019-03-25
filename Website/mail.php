@@ -1,47 +1,43 @@
 <?php
+// Import PHPMailer classes into the global namespace
+// These must be at the top of your script, not inside a function
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
 
-require 'PHPMailer/src/Exception.php';
-require 'PHPMailer/src/PHPMailer.php';
-require 'PHPMailer/src/SMTP.php';
+// Load Composer's autoloader
+require 'vendor/autoload.php';
 
-require 'PHPMailerAutoload.php';
+// Instantiation and passing `true` enables exceptions
+$mail = new PHPMailer(true);
 
-$mail = new PHPMailer();
-//$mail->IsSMTP(); // telling the class to use SMTP
-//$mail->Host = "localhost"; // SMTP server
-//IsSMTP(); // send via SMTP
-$mail->SMTPDebug = true;
-$mail->IsSMTP();
-$mail->Host     = "smtp.gmail.com"; // SMTP server Gmail
-$mail->Mailer   = "gmail";
-$mail->SMTPAuth = true; // turn on SMTP authentication
-$mail->SMTPSecure = 'tls'; 
-$mail->Port = 587;   
+try {
+    //Server settings
+    $mail->SMTPDebug = 2;                                       // Enable verbose debug output
+    $mail->isSMTP();                                            // Set mailer to use SMTP
+    $mail->Host       = 'smtp.gmail.com';    // Specify main and backup SMTP servers
+    $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
+    $mail->Username   = 'wouter.v.d.waal@gmail.com';                     // SMTP username
+    $mail->Password   = '1234hvhv';                               // SMTP password
+    $mail->SMTPSecure = 'tls';                                  // Enable TLS encryption, `ssl` also accepted
+    $mail->Port       = 587;                                    // TCP port to connect to
+    //Recipients
+    $mail->setFrom('wouter.v.d.waal@gmail.com', 'Wouter');
+    $mail->addAddress('qwertytheducky@gmail.com', 'Vaduz');     // Add a recipient
 
 
-$mail->Username = "wouter.v.d.waal@gmail.com"; // 
-$mail->Password = "*****"; // SMTP password
-$webmaster_email = "henrikus.antony@gmail.com"; //Reply to this email ID
-$email = "wouter.v.d.waal@gmail.com"; // Recipients email ID
-$name = "Hendrikus Anthony"; // Recipient's name
-$mail->From = $webmaster_email;
-$mail->FromName = "Anthony";
-$mail->AddAddress($email,$name);
-$mail->AddReplyTo($webmaster_email,"Anthony");
-$mail->WordWrap = 50; // set word wrap
+    $body = '<p><strong>Hello</strong> this is my first email with PHPmailer</p>';
 
-$mail->IsHTML(true); // send as HTML
-$mail->Subject = "Ini adalah Email HTML";
-$mail->Body = "Ini adalah email contoh"; //HTML Body
-$mail->AltBody = "This is the body when user views in plain text format"; //Text Body 
-if(!$mail->Send())
-{
-echo "Mailer Error: " . $mail->ErrorInfo;
+    // Content
+    $mail->isHTML(true);                                  // Set email format to HTML
+    $mail->Subject = 'This is a test email';
+    $mail->Body    = $body;
+    $mail->AltBody = strip_tags($body);
+
+    $mail->send();
+    echo 'Message has been sent';
+} catch (Exception $e) {
+    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
-else
-{
-echo "Message has been sent";
-}
+
+
 ?>
