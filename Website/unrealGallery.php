@@ -23,19 +23,11 @@
       </div>
 
       <div class="swiper-slide slide">
-        <div class="slide-image" style="background-image: url(img/class.png)"></div>
-        <span class="slide-title">vector</span>
+        <div class="slide-image" style="background-image: url(img/unrealgame.png)"></div>
+        <span class="slide-title">Unreal Game</span>
       </div>
 
-      <div class="swiper-slide slide">
-        <div class="slide-image" style="background-image: url(img/parabol.png)"></div>
-        <span class="slide-title">parabola</span>
-      </div>
 
-      <div class="swiper-slide slide">
-        <div class="slide-image" style="background-image: url(img/breuk.png)"></div>
-        <span class="slide-title">divide</span>
-      </div>
 
 
     </div>
